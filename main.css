@@ -1,0 +1,133 @@
+p{
+		color:blue;
+			font-size:14px;
+		}
+.listitem {
+	color:red;
+	font-size:20px;
+}
+
+#button {
+	width:300px;
+	height:150;
+	color:white;
+	background-color:black;
+	border-radius:15px;
+}
+
+header{
+	Height:250px;
+	width:66%;
+	border:2px solid black;
+	background-color:#FF9933;
+	margin-bottom:5em, 15em;
+}
+
+footer{
+	height:250px;
+	width:66%;
+	border:2px solid black;
+	background-color:#aef880;
+}
+
+.wrap-triva{
+	height:500px;
+	width:450px; 
+	border:5px double yellow;
+}
+
+.wrap-text{
+	color:#ff28e0;
+}
+
+#one{
+	height:150px;
+	width:150px;
+	background-color:red;
+	display: inline-block;
+	position:absolute;
+	z-index: 1;
+}
+
+#two{
+	height:150px;
+	width:150px;
+	background-color:purple;
+	display: inline-block;
+	position:relative;
+	top:750px;
+	z-index: 2;
+}
+
+#three{
+	height:150px;
+	width:150px;
+	background-color:green;
+	display: inline-b lock;
+	position:fixed; 
+	left:25%;
+}
+
+#body{
+	height:2048px;
+}
+
+.navitem{
+	list-style-type:none;
+	display:inline;
+	padding-right:1.5em;
+}
+
+#navmenu{
+	width:250px;
+	height:30px;
+	margin:auto;
+}
+
+a:link{
+	color:red;
+}
+a:visited{
+	color:blue;
+}
+a:hover{
+	color:purple;
+}
+a:active{
+	color:orange;
+}
+.homelink:hover{
+	color:orange;
+}
+
+#rightside {
+	float:right;
+	width:35%;
+}
+#leftside{
+	width:65%;
+}
+
+.clearfloat {
+	clear:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+
+<html> 
+<head>
+<script>
+function answer(){
+var radio = document.getElementsByName("trivia");
+var selection = false; 
+var message = ""; 
+for( var i = 0; i < radio.length; i++){
+	if(radio[i].value == "Mith" && radio[i].checked ==true){
+		selection = true;
+	}//end if statement
+}//end for loop
+if (selection == true) {
+	message = message + "<b><p style='color:green'>Way to Go!</p></b>";
+} else {
+	message = message + "<b><p style='color:red'> Try Again my Friend.</p></b>"
+}
+document.getElementsById("response").innerHTML = message; 
+}//end function answer
+</script> 
+	<link type= "text/css" rel="stylesheet" href="main.css"/> 
+	<title> Legend Holder </title> 
+		<style>
+		
+		</style> 
+</head> 
+
+	<style> 
+	pbrown
+	{
+	color:blue;
+	}
+	</style> 
+<a href= "http://google.com" onclick "return banner()">Google
+	<header>Breathtaking Words</header>
+</a> 
+	<nav>
+		<ul id="navmenu">
+			<li class="navitem"> <a class= "homelink" href="home.html"> Home</a> </li> 
+			<li class="navitem"> <a href="about.html">About Me</a> </li>
+			<li class="navitem"> <a href="articles.html">Articles</a>  </li> 
+		</ul> 
+	</nav> 
+	<div id="rightside"> 
+	<body> 
+		<h1> Stories of Beautiful Things </h1>
+	<p> Finding<span class= "wrap-text">  <u> beauty </u> </span> in everyday things and in the <i> poetic </i> description of ordinary things. Enjoying breathtaking, <b> graceful </b> words. 
+				<footer> Amanda J. Mandala Dare </footer> 
+	</body> 
+
+</p>
+
+<ol>
+	<li class="listitem"> Beauty carries the breath of life in it.</li> 
+	<li class="listitem"> Everyday things carry power </li> 
+	<li class="listitem"> Poetry carries Grace. </li>
+</ol>
+</div>
+<div id="leftside">
+
+	<div class="wrap-trivia"> 
+	<h2> Who said What? </h2>
+	<p> "Fly you fools!" </p> 
+	<form>
+	<div id="response"> </div> 
+	<input type="radio" name="trivia" value="Mith"> Gandalf <br>
+	<input type="radio" name="trivia" value="ring"> Frodo <br> 
+	<input type="radio" name="trivia" value="brave"> Sam <br> 
+	<input type="radio" name="trivia" value="king"> Aragorn <br>
+	<input type= "button" value= "Click Here" id="button" onclick="answer()"> 
+	</form> 
+</div> 
+
+	<iframe width= "420" height="315"
+	src= "https://www.youtube.com/watch?v=5pBjopDymts"
+	frameborder="0" allowfullscreen> 
+	</iframe> 
+</div> 
+
+<div class="clearfloat">
+
+	<audio width= "400" height="220" controls autoplay> 
+	<source scr="http://www.flashkit.com/imagesvr_ce/flashkit/soundfx/Communication/Quill_Sc-OneWhoLi-8814/Quill_Sc-OneWhoLi-8814_hifi.mp3"> 
+	</audio>
+
+
+	<img scrc= "file:///Users/amanda/Desktop/free_26490380.jpg" />
+	<img scrc= "file:///Users/amanda/Desktop/free_146960.jpg" />
+</div>
+
+</body> 
+</html>
